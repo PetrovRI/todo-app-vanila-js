@@ -1,0 +1,16 @@
+.todo-form {
+  display: flex;
+  background-color: $bg-color;
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 10px;
+
+  &__input-text {
+    flex: 1;
+    outline: none;
+    transition: all .2s;
+  }
+
+  &__button-add {
+    margin-left: 10px;
+  }
+}
